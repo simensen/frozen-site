@@ -1,0 +1,13 @@
+{
+    "require": {
+        "sculpin/sculpin": "2.*",
+        "silex/silex": "1.*",
+        "symfony/browser-kit": "~2.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Dflydev\\FrozenSite": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
