@@ -11,7 +11,7 @@ $filesystem = new Symfony\Component\Filesystem\Filesystem;
 // Sculpin dependencies
 $siteConfiguration = new Dflydev\DotAccessConfiguration\Configuration;
 $eventDispatcher = new Symfony\Component\EventDispatcher\EventDispatcher;
-$permalinkFactory = new Sculpin\Core\Permalink\SourcePermalinkFactory('stupid default required param');
+$permalinkFactory = new Sculpin\Core\Permalink\SourcePermalinkFactory('pretty');
 $writer = new Sculpin\Core\Output\FilesystemWriter($filesystem, 'output');
 $generatorManager = new Sculpin\Core\Generator\GeneratorManager($eventDispatcher, $siteConfiguration);
 $formatterManager = new Sculpin\Core\Formatter\FormatterManager($eventDispatcher, $siteConfiguration);
